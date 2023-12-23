@@ -194,7 +194,7 @@ const About = ({ roboto, sanchez }) => {
 
           <button
             style={mobileButtonStyle}
-            className="flex justify-between mx-auto py-3 px-5 space-x-4"
+            className="flex justify-between mx-auto py-2 px-4 space-x-4"
           >
             <h1 style={roboto} className="">
               Shop now
