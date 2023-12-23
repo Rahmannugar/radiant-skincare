@@ -3,12 +3,18 @@ import heroImage from "../assets/skincare-main.jfif";
 import { useMediaQuery } from "@mui/material";
 
 const Hero = ({ sanchez, roboto }) => {
-  const isNonMobileScreens = useMediaQuery("(min-width:600px)");
+  const isNonMobileScreens = useMediaQuery("(min-width:639px)");
 
   const buttonStyle = {
     border: "1.5px solid #FFF",
     boxShadow: "0px 8px 8px 0px rgba(0, 0, 0, 0.12)",
     padding: "0.875rem 2.75rem",
+  };
+
+  const mobileButtonStyle = {
+    border: "1.5px solid #FFF",
+    boxShadow: "0px 8px 8px 0px rgba(0, 0, 0, 0.12)",
+    padding: "0.75rem 2rem",
   };
 
   return (
@@ -41,8 +47,6 @@ const Hero = ({ sanchez, roboto }) => {
               className="flex mt-[3.125rem] mx-auto hover:bg-black duration-200"
             >
               <h1 className="font-medium leading-6 px-0.125rem" style={roboto}>
-                {" "}
-                {/* Converted from px to rem */}
                 Shop now
               </h1>
               <svg
@@ -67,19 +71,25 @@ const Hero = ({ sanchez, roboto }) => {
             alt="hero-image"
             className="w-full h-auto max-h-[58.375rem] object-cover"
           />
-          <div className="absolute inset-0 flex flex-col text-center text-white">
-            <h1 style={sanchez} className="text-2xl pt-[7.5rem]">
+          <div className="absolute inset-0 flex flex-col text-center text-white px-4">
+            <h1
+              style={sanchez}
+              className="text-xl pt-[7rem] max-w-[31.25rem] mx-auto font-black"
+            >
               Radiant Skincare: Achieving a Naturally Glowing Complexion
             </h1>
-            <p style={roboto} className="text-lg pt-[2.8125rem]">
+            <p
+              style={roboto}
+              className="text-sm pt-[2.2rem] max-w-[18.75rem] mx-auto"
+            >
               Our mission is to help you achieve a naturally radiant and glowing
               complexion through the use of high-quality, natural skincare
               products
             </p>
 
             <div
-              style={buttonStyle}
-              className="flex mt-[1.25rem] mx-auto hover:bg-black duration-200"
+              style={mobileButtonStyle}
+              className="flex mt-[2rem] mx-auto hover:bg-black duration-200"
             >
               <h1 className="font-medium px-0.125rem" style={roboto}>
                 Shop now

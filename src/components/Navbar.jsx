@@ -62,7 +62,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen, isNonMobileScreens, roboto }) => {
       ) : (
         <div>
           <div className="flex justify-between px-7">
-            <div className="py-6 px-6">
+            <div className="py-6 px-5">
               <svg
                 width="133"
                 height="19"

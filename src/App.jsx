@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { useMediaQuery } from "@mui/material";
 import Hero from "./components/Hero";
 import Skincare from "./components/Skincare";
+import About from "./components/About";
 
 const App = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:900px)");
@@ -13,6 +14,9 @@ const App = () => {
   };
   const roboto = {
     fontFamily: "'Roboto', sans-serif",
+  };
+  const sarpanch = {
+    fontFamily: "'Sarpanch', sans-serif",
   };
   return (
     <div>
@@ -25,7 +29,8 @@ const App = () => {
       {!isMenuOpen && (
         <>
           <Hero roboto={roboto} sanchez={sanchez} />
-          <Skincare />
+          <Skincare roboto={roboto} sanchez={sanchez} sarpanch={sarpanch} />
+          <About roboto={roboto} sanchez={sanchez} />
         </>
       )}
     </div>
