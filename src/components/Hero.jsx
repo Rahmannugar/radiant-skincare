@@ -89,7 +89,7 @@ const Hero = ({ sanchez, roboto }) => {
 
             <div
               style={mobileButtonStyle}
-              className="flex mt-[2rem] mx-auto hover:bg-black duration-200"
+              className="flex mt-[2rem] mx-auto  hover:bg-black duration-200"
             >
               <h1 className="font-medium px-0.125rem" style={roboto}>
                 Shop now

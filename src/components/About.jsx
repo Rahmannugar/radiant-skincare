@@ -3,6 +3,9 @@ import diagonal from "../assets/diagonal.png";
 import pipette from "../assets/pipette.png";
 
 const About = ({ roboto, sanchez }) => {
+  const mobileButtonStyle = {
+    border: "1px solid var(--Black, #000)",
+  };
   return (
     <div className="text-center px-10">
       <h1 className="font-semibold leading-6 text-xl pb-16" style={roboto}>
@@ -38,13 +41,13 @@ const About = ({ roboto, sanchez }) => {
         <h1 className="text-2xl py-5 font-bold" style={sanchez}>
           Natural ingredients
         </h1>
-        <p style={roboto} className="">
+        <p style={roboto}>
           Natural and environmentally-friendly ingredients. Trust us to nourish
           and protect your skin with the best nature has to offer.
         </p>
       </div>
 
-      <div className="pt-10 flex flex-col items-center">
+      <div className="pt-10 pb-10 flex flex-col items-center">
         <svg
           width="48"
           height="48"
@@ -66,12 +69,34 @@ const About = ({ roboto, sanchez }) => {
         <h1 className="text-2xl py-5 font-bold" style={sanchez}>
           Effective results
         </h1>
-        <p style={roboto} className="">
+        <p style={roboto}>
           Effective skincare products that deliver on their promises. Our brand
           highlights effectiveness through customer testimonials and clinical
           studies.
         </p>
       </div>
+
+      <button
+        style={mobileButtonStyle}
+        className="flex justify-between mx-auto py-3 px-5 space-x-4 mb-48"
+      >
+        <h1 style={roboto} className="">
+          Shop now
+        </h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="black"
+        >
+          <path
+            d="M14 18L12.6 16.55L16.15 13H4V11H16.15L12.6 7.45L14 6L20
+                12L14 18Z"
+            fill="black"
+          />
+        </svg>
+      </button>
     </div>
   );
 };
