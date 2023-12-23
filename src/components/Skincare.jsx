@@ -7,7 +7,7 @@ import Woman from "../assets/woman.png";
 import Curology from "../assets/curology.png";
 import FlexImage from "./FlexImage";
 
-const Skincare = ({ roboto, sanchez, sarpanch }) => {
+const Skincare = ({ sanchez, sarpanch }) => {
   const isNonMobileScreens = useMediaQuery("(min-width:700px)");
 
   return (

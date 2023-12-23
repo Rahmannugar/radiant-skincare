@@ -33,21 +33,21 @@ const FlexImage = () => {
         </div>
       )}
       {sevenHundred && (
-        <div className="flex justify-center items-center pt-16 space-x-2">
+        <div className="flex justify-center items-center pt-16 space-x-2 pb-32">
           <img src={Woman} alt="woman" className="h-64 w-56" />
           <img src={Curology} alt="curology" className="h-64 w-56" />
           <img src={Baby} alt="baby" className="h-64 w-56" />
         </div>
       )}
       {eightHundred && (
-        <div className="flex justify-center items-center pt-20 space-x-3">
+        <div className="flex justify-center items-center pt-20 space-x-3 pb-32">
           <img src={Woman} alt="woman" className="h-72 w-64" />
           <img src={Curology} alt="curology" className="h-72 w-64" />
           <img src={Baby} alt="baby" className="h-72 w-64" />
         </div>
       )}
       {nineHundred && (
-        <div className="flex justify-center items-center pt-20 space-x-4">
+        <div className="flex justify-center items-center pt-20 space-x-4 pb-32">
           <img src={Woman} alt="woman" className="h-80 w-72" />
           <img src={Curology} alt="curology" className="h-80 w-72" />
           <img src={Baby} alt="baby" className="h-80 w-72" />

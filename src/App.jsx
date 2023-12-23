@@ -29,7 +29,7 @@ const App = () => {
       {!isMenuOpen && (
         <>
           <Hero roboto={roboto} sanchez={sanchez} />
-          <Skincare roboto={roboto} sanchez={sanchez} sarpanch={sarpanch} />
+          <Skincare sanchez={sanchez} sarpanch={sarpanch} />
           <About roboto={roboto} sanchez={sanchez} />
         </>
       )}
