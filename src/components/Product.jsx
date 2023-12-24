@@ -58,11 +58,10 @@ const Product = ({ roboto, sanchez }) => {
   return (
     <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:px-5 lg:px-[20px] xl:px-[50px]">
       {productData.map((product) => (
-        <div className="flex flex-col px-10 sm:px-5">
+        <div className="flex flex-col px-10 sm:px-5" key={product.id}>
           <img
             src={product.src}
             alt={product.id}
-            key={product.id}
             className="bg-[#ECF3F4] hover:bg-[#78A8B0] duration-200 ease-in mt-16 mb-5 py-10"
           />
 

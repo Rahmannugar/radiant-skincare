@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Skincare from "./components/Skincare";
 import About from "./components/About";
 import Products from "./components/Products";
-import { Result } from "postcss";
+import Result from "./components/Result";
 
 const App = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:900px)");
