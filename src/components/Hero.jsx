@@ -7,13 +7,11 @@ const Hero = ({ sanchez, roboto }) => {
 
   const buttonStyle = {
     border: "1.5px solid #FFF",
-    boxShadow: "0px 8px 8px 0px rgba(0, 0, 0, 0.12)",
     padding: "0.875rem 2.75rem",
   };
 
   const mobileButtonStyle = {
     border: "1.5px solid #FFF",
-    boxShadow: "0px 8px 8px 0px rgba(0, 0, 0, 0.12)",
     padding: "0.75rem 2rem",
   };
 
