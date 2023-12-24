@@ -34,7 +34,7 @@ const App = () => {
           <Skincare sanchez={sanchez} sarpanch={sarpanch} />
           <About roboto={roboto} sanchez={sanchez} />
           <Products roboto={roboto} sanchez={sanchez} />
-          <Result />
+          <Result roboto={roboto} sanchez={sanchez} />
         </>
       )}
     </div>

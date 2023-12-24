@@ -1,6 +1,6 @@
 import React from "react";
 
-const Result = () => {
+const Result = ({ roboto, sanchez }) => {
   return <div>Result</div>;
 };
 
