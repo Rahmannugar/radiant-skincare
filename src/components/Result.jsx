@@ -19,25 +19,31 @@ const Result = ({ roboto, sanchez }) => {
               Real Results from Real Customers
             </h1>
           </div>
-          <div className="flex 2xl:justify-center 2xl:items-center  mt-24">
+          <div className="flex justify-center items-center mt-24">
             <img
               src={model}
               alt="Sarah Simson"
-              className="xl:w-[520px] max-h-[100%]"
+              className="max-w-[520px] max-h-[640px]"
             />
             <div className="">
-              <div className="text-center mx-auto max-w-[551px] xl:py-[7.45vh]">
-                <p className="xl:px-16" style={sanchez}>
+              <div className="text-center mx-auto max-w-[551px]">
+                <p className="text-xl leading-7 py-10" style={sanchez}>
                   “I noticed significant improvement in my skin tone and texture
                   after using the Brightening Serum for a month. My acne scars
                   have faded and my skin looks healthier and radiant. It's made
                   with natural ingredients and is now a staple in my skincare
                   routine.”
                 </p>
-                <h3 style={roboto} className="font-semibold">
+                <h3
+                  style={roboto}
+                  className="font-semibold text-sm leading-[21px]"
+                >
                   Sarah Simson
                 </h3>
-                <h3 style={roboto} className="text-black text-opacity-60">
+                <h3
+                  style={roboto}
+                  className="text-sm leading-[21px] text-black text-opacity-60"
+                >
                   @sarahsimson
                 </h3>
               </div>
@@ -45,17 +51,17 @@ const Result = ({ roboto, sanchez }) => {
                 <img
                   src={result1}
                   alt="result-1"
-                  className="xl:w-[220px] max-h-[260px]"
+                  className="max-w-[237.333px] max-h-[260px]"
                 />
                 <img
                   src={result2}
                   alt="result-2"
-                  className="xl:w-[220px] max-h-[260px]"
+                  className="max-w-[237.333px] max-h-[260px]"
                 />
                 <img
                   src={result3}
                   alt="result-3"
-                  className="xl:w-[220px] max-h-[260px]"
+                  className="max-w-[237.333px] max-h-[260px]"
                 />
               </div>
             </div>
