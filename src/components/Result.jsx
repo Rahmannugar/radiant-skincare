@@ -19,15 +19,15 @@ const Result = ({ roboto, sanchez }) => {
               Real Results from Real Customers
             </h1>
           </div>
-          <div className="flex justify-center items-center mt-24">
+          <div className="flex  items-center justify-center mt-24">
             <img
               src={model}
               alt="Sarah Simson"
-              className="max-w-[520px] max-h-[640px]"
+              className="lg:w-[380px] lg:h-[460px] xl:w-[520px] xl:h-[600px]"
             />
             <div className="">
-              <div className="text-center mx-auto max-w-[551px]">
-                <p className="text-xl leading-7 py-10" style={sanchez}>
+              <div className="text-center mx-auto max-w-[551px] py-[10%]">
+                <p className="text-xl leading-7 py-5" style={sanchez}>
                   “I noticed significant improvement in my skin tone and texture
                   after using the Brightening Serum for a month. My acne scars
                   have faded and my skin looks healthier and radiant. It's made
@@ -51,17 +51,17 @@ const Result = ({ roboto, sanchez }) => {
                 <img
                   src={result1}
                   alt="result-1"
-                  className="max-w-[237.333px] max-h-[260px]"
+                  className="lg:w-[33%] lg:h-[200px] xl:w-[237.333px] xl:h-[260px]"
                 />
                 <img
                   src={result2}
                   alt="result-2"
-                  className="max-w-[237.333px] max-h-[260px]"
+                  className="lg:w-[33%] lg:h-[200px] xl:w-[237.333px] xl:h-[260px]"
                 />
                 <img
                   src={result3}
                   alt="result-3"
-                  className="max-w-[237.333px] max-h-[260px]"
+                  className="lg:w-[33%] lg:h-[200px] xl:w-[237.333px] xl:h-[260px]"
                 />
               </div>
             </div>
