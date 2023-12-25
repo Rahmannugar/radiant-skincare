@@ -1,4 +1,3 @@
-import React from "react";
 import model from "../assets/model.png";
 import { useMediaQuery } from "@mui/material";
 import result1 from "../assets/result-1.png";
@@ -7,11 +6,12 @@ import result3 from "../assets/result-3.png";
 
 const Result = ({ roboto, sanchez }) => {
   const isNonMobileScreens = useMediaQuery("(min-width:1024px)");
+
   return (
     <div className="py-12">
       {isNonMobileScreens ? (
-        <div className="xl:px-[70px] lg:px-10 hidden">
-          <div className="2xl:flex 2xl:justify-center 2xl:items-center 2xl:text-center">
+        <div className="xl:px-[70px] lg:px-10 xl:mb-20">
+          <div className="2xl:flex  2xl:justify-center 2xl:items-center 2xl:text-center">
             <h1
               style={sanchez}
               className="max-w-[560px] xl:text-5xl lg:text-4xl 2xl:text-5xl leading-[57.6px]"
@@ -19,15 +19,18 @@ const Result = ({ roboto, sanchez }) => {
               Real Results from Real Customers
             </h1>
           </div>
-          <div className="flex  items-center justify-center mt-24">
+          <div className="flex 2xl:items-center 2xl:justify-center  mt-24">
             <img
               src={model}
               alt="Sarah Simson"
               className="lg:w-[380px] lg:h-[460px] xl:w-[520px] xl:h-[600px]"
             />
             <div className="">
-              <div className="text-center mx-auto max-w-[551px] py-[10%]">
-                <p className="text-xl leading-7 py-5" style={sanchez}>
+              <div className="text-center xl:ml-12 2xl:ml-0 mx-auto max-w-[551px] py-[10%]">
+                <p
+                  className="text-xl flex leading-7 xl:py-[19px] 2xl:py-2"
+                  style={sanchez}
+                >
                   “I noticed significant improvement in my skin tone and texture
                   after using the Brightening Serum for a month. My acne scars
                   have faded and my skin looks healthier and radiant. It's made
@@ -47,21 +50,21 @@ const Result = ({ roboto, sanchez }) => {
                   @sarahsimson
                 </h3>
               </div>
-              <div className="flex">
+              <div className="flex absolute 2xl:relative">
                 <img
                   src={result1}
                   alt="result-1"
-                  className="lg:w-[33%] lg:h-[200px] xl:w-[237.333px] xl:h-[260px]"
+                  className="xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
                 />
                 <img
                   src={result2}
                   alt="result-2"
-                  className="lg:w-[33%] lg:h-[200px] xl:w-[237.333px] xl:h-[260px]"
+                  className="xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
                 />
                 <img
                   src={result3}
                   alt="result-3"
-                  className="lg:w-[33%] lg:h-[200px] xl:w-[237.333px] xl:h-[260px]"
+                  className="xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
                 />
               </div>
             </div>

@@ -148,7 +148,7 @@ const Footer = ({ roboto }) => {
               </ul>
             </div>
           </div>
-          <div className="bg-black h-[1px] w-[100%] mb-7"></div>
+          <div className="bg-black h-[1px] w-[100%] mb-7 mt-20"></div>
           <div className="flex justify-between">
             <h2 className="text-sm leading-[21px]">
               2023 Radiant. All right reserved.
