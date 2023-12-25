@@ -10,7 +10,7 @@ const Result = ({ roboto, sanchez }) => {
   return (
     <div className="py-12">
       {isNonMobileScreens ? (
-        <div className="xl:px-[70px] lg:px-10 xl:mb-20">
+        <div className="xl:px-[70px] lg:px-10 lg:mb-14 xl:mb-20">
           <div className="2xl:flex  2xl:justify-center 2xl:items-center 2xl:text-center">
             <h1
               style={sanchez}
@@ -23,12 +23,12 @@ const Result = ({ roboto, sanchez }) => {
             <img
               src={model}
               alt="Sarah Simson"
-              className="lg:w-[380px] lg:h-[460px] xl:w-[520px] xl:h-[600px]"
+              className="lg:w-[380px] lg:h-[525px] xl:w-[520px] xl:h-[600px]"
             />
             <div className="">
-              <div className="text-center  xl:ml-12 2xl:ml-20 mx-auto max-w-[551px] py-[10%]">
+              <div className="text-center lg:ml-3 xl:ml-12 2xl:ml-20 mx-auto max-w-[551px] py-[10%]">
                 <p
-                  className="text-xl leading-7 xl:py-[19px] 2xl:py-2"
+                  className="text-xl leading-7 xl:py-[19px]  2xl:py-2"
                   style={sanchez}
                 >
                   “I noticed significant improvement in my skin tone and texture
@@ -54,17 +54,17 @@ const Result = ({ roboto, sanchez }) => {
                 <img
                   src={result1}
                   alt="result-1"
-                  className="xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
+                  className="lg:w-[30%] lg:h-[230px] xl:w-[30%]  xl:h-[260px] 2xl:w-[237.33px]"
                 />
                 <img
                   src={result2}
                   alt="result-2"
-                  className="xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
+                  className="lg:w-[30%] lg:h-[230px] xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
                 />
                 <img
                   src={result3}
                   alt="result-3"
-                  className="xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
+                  className="lg:w-[30%] lg:h-[230px] xl:w-[30%] xl:h-[260px] 2xl:w-[237.33px]"
                 />
               </div>
             </div>
