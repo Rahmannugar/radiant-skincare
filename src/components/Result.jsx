@@ -26,9 +26,9 @@ const Result = ({ roboto, sanchez }) => {
               className="lg:w-[380px] lg:h-[460px] xl:w-[520px] xl:h-[600px]"
             />
             <div className="">
-              <div className="text-center xl:ml-12 2xl:ml-0 mx-auto max-w-[551px] py-[10%]">
+              <div className="text-center  xl:ml-12 2xl:ml-20 mx-auto max-w-[551px] py-[10%]">
                 <p
-                  className="text-xl flex leading-7 xl:py-[19px] 2xl:py-2"
+                  className="text-xl leading-7 xl:py-[19px] 2xl:py-2"
                   style={sanchez}
                 >
                   “I noticed significant improvement in my skin tone and texture
