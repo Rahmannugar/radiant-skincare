@@ -7,6 +7,7 @@ import Skincare from "./components/Skincare";
 import About from "./components/About";
 import Products from "./components/Products";
 import Result from "./components/Result";
+import Footer from "./components/Footer";
 
 const App = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:900px)");
@@ -35,6 +36,7 @@ const App = () => {
           <About roboto={roboto} sanchez={sanchez} />
           <Products roboto={roboto} sanchez={sanchez} />
           <Result roboto={roboto} sanchez={sanchez} />
+          <Footer roboto={roboto} />
         </>
       )}
     </div>

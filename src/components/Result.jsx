@@ -10,7 +10,7 @@ const Result = ({ roboto, sanchez }) => {
   return (
     <div className="py-12">
       {isNonMobileScreens ? (
-        <div className="xl:px-[70px] lg:px-10">
+        <div className="xl:px-[70px] lg:px-10 hidden">
           <div className="2xl:flex 2xl:justify-center 2xl:items-center 2xl:text-center">
             <h1
               style={sanchez}
@@ -68,7 +68,7 @@ const Result = ({ roboto, sanchez }) => {
           </div>
         </div>
       ) : (
-        <div className="px-5">
+        <div className="px-10">
           <h1
             style={sanchez}
             className="text-xl md:text-2xl text-center font-black"
